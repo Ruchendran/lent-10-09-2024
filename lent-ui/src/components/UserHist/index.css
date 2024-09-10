@@ -1,7 +1,8 @@
 .hist-main{
     width:100vw;
     background-color:#000000;
-    height:90vh;
+    min-height:90vh;
+    max-height: transform;
     overflow-y: scroll;
 }
 
