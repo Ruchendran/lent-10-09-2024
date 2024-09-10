@@ -1,0 +1,107 @@
+.hist-main{
+    width:100vw;
+    background-color:#000000;
+    height:90vh;
+    overflow-y: scroll;
+}
+
+.sester{
+    width:100vw;
+    justify-content: center;
+    display: flex;
+    height:auto;
+    flex-direction: column;
+    box-sizing: content-box;
+}
+
+.hist{
+                width:100vw;
+                align-items: center;
+                height:50vh;
+                display: flex;
+                overflow-y: scroll;
+                flex-direction: column;
+}
+
+.hist-table{
+    width:100vw;
+    background-color:#ccd2e3;
+    height:10vh;
+}
+
+.list-table{
+                width:100vw;
+                height:10vh;
+                border-collapse:collapse;
+                flex-shrink: 0px;
+}
+
+.lists-stile{
+                color:#ccd2e3;
+                border-color:#ccd2e3;
+                border-style: solid;
+                text-align: center;
+}
+
+.header1{
+    width:200px;
+}
+.header2{
+    width:300px;
+}
+.header3{
+    width:200px;
+}
+.header4{
+    width:200px;
+}
+.header5{
+    width:300px;
+}
+
+.set{
+    width:100vw;
+}
+
+
+
+@media all and (max-width:768px){
+    .sester{
+        width:100vw;
+        justify-content: flex-start;
+        overflow-x: auto;
+    }
+  
+    .hist{
+            width:120vw;
+    }
+
+    .hist-table{
+        width:240vw; 
+}
+.list-table{
+            width:240vw;
+        }
+
+        .header1{
+                    width:80px;
+        }
+        .header2{
+                    width:140px;
+        }
+
+        .header3{
+                    width:140px;
+        }
+
+        .header4{
+                    width:210px;
+        }
+
+        .header5{
+                    width:250px;
+
+        }
+
+   
+}

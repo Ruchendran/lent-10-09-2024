@@ -1,0 +1,108 @@
+.put-main{
+
+    width:100vw;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color:#000000;
+
+    height:90vh;
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+.put-form{
+
+        width:40vw;
+
+        align-items: center;
+
+        background-color:#1f2126;
+
+        height:60vh;
+
+        border-radius: 10px;
+
+        display: flex;
+
+        flex-direction: column;
+}
+
+.put-heading{
+
+                color:#ccd2e3;
+
+                font-size: 25px;
+}
+.put-field{
+
+            justify-content: space-around;
+            height:30vh;
+
+
+            display: flex;
+            flex-direction: column;
+}
+.put-select{
+
+    width:22vw;
+
+    justify-content: space-between;
+
+    display: flex;
+
+    height:10vh;
+}
+
+.select-button{
+
+    cursor: pointer;
+    width:100px;
+    background-color:#ccd2e3;
+
+    height:40px;
+
+    border-style: none;
+
+    font-weight: bold;
+
+}
+
+.select-button:hover{
+
+    width:102px;
+    
+    height:42px;
+}
+
+.highlight-button{
+
+    cursor: pointer;
+    width:100px;
+    background-color:#19bfba;
+
+    height:40px;
+
+    border-style: none;
+
+    font-weight: bold;
+}
+
+
+
+@media all and (max-width:768px){
+    
+    .put-form{
+        width:90vw;
+
+        height:60vh;
+    }
+    .put-select{
+
+        width:80vw;
+    }
+}

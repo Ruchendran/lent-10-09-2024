@@ -1,0 +1,109 @@
+.text{
+    color:#ffffff;
+}
+.admin{
+    width:100vw;
+    background-color:#000000;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-height:transform;
+    overflow-y: scroll;
+    padding-bottom: 40px;
+}
+
+
+.view-table{
+    width:80vw;
+     border-color:#ccd2e3;
+    height:5vw;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+.table{
+    width:80vw;
+    height:10vh;
+    border-collapse: collapse;
+}
+
+.index-width1{
+
+    width:300px;
+}
+.index-width2{
+
+    width:300px;
+}
+
+.index-width3{
+
+    width:200px;
+}
+
+.sen{
+    text-align: center;
+}
+
+
+.over{
+    width:80vw;
+    /* height:transform; */
+    scrollbar-color:#000000;
+    flex-direction: column;
+    box-sizing: content-box;
+}
+
+
+
+
+@media all and (max-width:768px){
+
+
+   .over{
+
+        width:100vw;
+        overflow-x: auto;
+   }
+    
+   .view-table{
+                    width:180vw;
+
+                    height:10vh;
+   }
+
+   .filterDiv{
+
+            justify-content: center;
+
+            align-items: center;
+   }
+ 
+
+   .table{
+            width:180vw;
+
+            height:10vh;
+   }
+
+   .index-width1{
+
+            width:155px;
+   }
+
+   .index-width2{
+                    width:200px;
+   }
+   .index-width3{
+                    width:120px;
+   }
+   .index-width4{
+                    width:200px;
+   }
+
+   .index1{
+        width:160px;
+   }
+}
