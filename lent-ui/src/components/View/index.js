@@ -63,7 +63,8 @@ class View extends Component{
         else{
 
         const url=`http://localhost:4000/${tableName}`
-        const send=await fetch(url)
+        const send=await fetch(url);
+        
         const output=await send.json()
 
         console.log(output)

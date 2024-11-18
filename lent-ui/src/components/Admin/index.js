@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 // import { Table } from '../View'
+import Cookies from "js-cookie";
 
 import  "./index.css"
 
@@ -10,6 +11,9 @@ export const Table=(props)=>{
 
   const onDelete=(value)=>{
     deleteName(value);
+    Cookies.remove("password")
+    Cookies.remove("name")
+  
   }
 
   return(
